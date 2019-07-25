@@ -1,1 +1,1 @@
-# Timer
+# Timer for Ralts Community Day
