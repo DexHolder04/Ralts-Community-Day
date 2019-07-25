@@ -1,3 +1,21 @@
+@media only screen and (orientation:portrait) {
+  /* For mobile phones: */
+  .top {
+    padding-top: 10px;
+    padding-right: 15%;
+    padding-bottom: 10px;
+    padding-left: 15%;
+  }
+}
+@media only screen and (orientation:landscape) {
+  /* For mobile phones: */
+  .top {
+    padding-top: 10px;
+    padding-right: 35%;
+    padding-bottom: 10px;
+    padding-left: 35%;
+  }
+}
 .top{
 	margin: auto;
 	width: 100%;
@@ -9,10 +27,6 @@
 	background-position:center;
 	background-repeat:no-repeat;
 	background-size:contain;
-	padding-top: 10px;
-    padding-right: 30%;
-    padding-bottom: 10px;
-    padding-left: 30%;
 }
 .boundbox {
 	background-color: rgba(0,0,0,0.1);
