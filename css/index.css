@@ -1,5 +1,4 @@
 @media only screen and (orientation:portrait) {
-  /* For mobile phones: */
   .top {
     padding-top: 10px;
     padding-right: 15%;
@@ -8,13 +7,35 @@
   }
 }
 @media only screen and (orientation:landscape) {
-  /* For mobile phones: */
   .top {
     padding-top: 10px;
     padding-right: 35%;
     padding-bottom: 10px;
     padding-left: 35%;
   }
+}
+@media only screen and (orientation:portrait) {
+  .coverpic {
+    width: 100%;
+	border-radius:10px;
+  }
+}
+@media only screen and (orientation:landscape) {
+  .coverpic {
+    width: 50%;
+	border-radius:10px;
+	align:center;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+  }
+}
+@font-face {
+	font-family: centurygoth;
+	src:url(../resources/fonts/GOTHIC.TTF);
+}
+h1,h2,h3,h4,h5,h6 {
+	font-family:centurygoth;
 }
 .top{
 	margin: auto;
@@ -69,7 +90,7 @@ ul.navbar li a:hover {
   text-decoration: none;
 }
 .active {
-  background-color: #F995FF;
+  background-color: rgb(157, 210, 162);
   text-decoration: none;
 }
 .mudkipic {
