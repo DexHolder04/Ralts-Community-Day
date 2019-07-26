@@ -1,3 +1,8 @@
+@font-face {
+	font-family: centurygoth;
+	src:url(../resources/fonts/GOTHIC.TTF);
+}
+
 @media only screen and (orientation:portrait) {
   .top {
     padding-top: 10px;
@@ -29,10 +34,6 @@
 	margin-left: auto;
 	margin-right: auto;
   }
-}
-@font-face {
-	font-family: centurygoth;
-	src:url(../resources/fonts/GOTHIC.TTF);
 }
 h1,h2,h3,h4,h5,h6 {
 	font-family:centurygoth;
@@ -92,8 +93,4 @@ ul.navbar li a:hover {
 .active {
   background-color: rgb(157, 210, 162);
   text-decoration: none;
-}
-.mudkipic {
-  border-radius: 30px;
-  width:50%;	
 }

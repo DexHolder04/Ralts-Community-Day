@@ -1,0 +1,28 @@
+@media only screen and (orientation:portrait) {
+.ivchart {
+  	width:94%;
+	font-family: centurygoth;
+  	border-collapse: collapse;
+	margin-left:3%;
+}
+}
+@media only screen and (orientation:landscape) {
+.ivchart {
+  	width:44%;
+	font-family: centurygoth;
+  	border-collapse: collapse;
+	margin-left:4%;}
+}
+.ivchart {
+	display:inline-table;
+}
+td, th {
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 8px;
+  width:50%;
+}
+
+tr:nth-child(even) {
+  background-color: #eeeeee;
+}
