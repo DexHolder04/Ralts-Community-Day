@@ -26,7 +26,7 @@ function distance() {
 			dist = dist * 180/Math.PI;
 			dist = dist * 60 * 1.1515;
 			dist = dist * 1.609344;
-			result = "The distance between " + coord1 + " and " + coord2 + " is " + Math.round(dist*100) /100 + " km";
+			result = "The distance between<br>" + coord1 + " and " + coord2 + "<br>is " + Math.round(dist*100) /100 + " km";
 			dist = Math.round(dist);
 		}
 		console.log(dist);

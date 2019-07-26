@@ -2,9 +2,7 @@
 <html>
 <head>
 <meta charset="utf-8">
-  	<title>
-		Mudkip Community Day
-  	</title>
+  	<title>| Ralts Community Day |</title>
   	<meta name="author" content="">
   	<meta name="description" content="">
   	<meta name="viewport" content="width=device-width,height=device-height,initial-scale=1.0"/>
@@ -31,33 +29,34 @@
 <body>
 
 <div class="top">
-	<h2>Local Time</h2>
-  <div id="displayMoment"></div>
+  <div class="boundbox">
+  	<h3><strong>Current Time</strong></h3>
+  	<h4><div id="displayMoment"></div></h4>
+  </div>
   <br>
-  <p style="text-align: justify; font-size: 12px;"><strong>* Local time is derived from your smarthphone / desktop time</strong><p>
+  <p style="text-align: center; font-size: 12px;"><strong>* Time based on your device *</strong><p>
 </div>
 
 <ul class="navbar">
   <li><a href="index.html">Home</a></li>
   <li><a href="timeZone.html">Time Zones</a></li>
   <li><a href="timers.html">Timers</a></li>
-  <li><a href="gpx.html">GPX Routes</a></li>
   <li><a class="active" href="cooldown.html">CD Calculator</a></li>
   <li><a href="tzguess.html">TZ Guess</a></li>
-  <li><a href="mudkip.html">Mudkip</a></li>
-  <li><a href="faq.html">FAQ</a></li>
+  <li><a href="ralts.html">Ralts</a></li>
 </ul>
 <div>&nbsp;</div>
-<h5><strong>Enter the origin coordinates:</strong></h5>
+<h4 align="center" style="line-height:40px;"><strong>Enter the origin coordinates:</strong></h5>
 <input class="coordinate" id="input_coordinate1" type="text" placeholder="XX.XXXXXX,YY.YYYYYY" autocomplete="off" style="width: 50%;" required>
 <div>&nbsp;</div>
-<h5><strong>Enter the destination coordinates:</strong></h5>
+<h4 align="center" style="line-height:40px;"><strong>Enter the destination coordinates:</strong></h5>
 <input class="coordinate" id="input_coordinate2" type="text" placeholder="XX.XXXXXX,YY.YYYYYY" autocomplete="off" style="width: 50%;" required>
 <div>&nbsp;</div>
 <button class="btn btn-default" id="btnSubmit" onclick="distance()">Submit</button>
 <button class="btn btn-default" id="btnClear" onclick="clearFunction()">Clear</button>
 <div>&nbsp;</div>
-<div id="cooldownResult" style="font-size: large;"></div>
+<div id="cooldownResult" class="result"></div>
+<h4 style="font-size:14px" align="center"><strong>source code by <a href="https://github.com/shadow0403bsr/Timer">shadow0403bsr</a></strong></h4>
 <script src="js/index.js" type="text/javascript"></script>
 <script src="js/cooldown.js" type="text/javascript"></script>
 </body>

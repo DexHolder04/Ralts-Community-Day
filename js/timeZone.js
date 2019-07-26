@@ -40,8 +40,8 @@ function setClass(els, className, fnName) {
 }
 countdownTimer();
 function countdownTimer() {
-	var startTime = "2019-07-21 16:00:00";
-	var stopTime = "2019-07-21 19:00:00";
+	var startTime = "2019-08-03 16:00:00";
+	var stopTime = "2019-08-03 19:00:00";
 	var allTimeZones = ["Etc/GMT+12", "Etc/GMT+11", "Etc/GMT+10", "Etc/GMT+9", "Etc/GMT+8", "Etc/GMT+7", "Etc/GMT+6", "Etc/GMT+5", "Etc/GMT+4", "Etc/GMT+3", "America/St_Johns", "Etc/GMT+2", "Etc/GMT+1", "Etc/GMT+0",
 						"Etc/GMT-1", "Etc/GMT-2","Etc/GMT-3", "Etc/GMT-4", "Asia/Tehran", "Etc/GMT-5", "Asia/Kolkata", "Asia/Kathmandu", "Etc/GMT-6", "Asia/Yangon", "Etc/GMT-7", "Etc/GMT-8", "Etc/GMT-9", "Australia/Adelaide", "Etc/GMT-10", "Etc/GMT-11", "Etc/GMT-12", "Etc/GMT-13", 
 						"Etc/GMT-14"]  
@@ -51,8 +51,7 @@ function countdownTimer() {
 						 "displaytimerm04", "displaytimerm03", "displaytimerm2p5", "displaytimerm02", "displaytimerm01", "displaytimerp00", "displaytimerp01", "displaytimerp02", "displaytimerp03",
 						 "displaytimerp04", "displaytimerp4p5", "displaytimerp05", "displaytimerp5p5", "displaytimerp5p3", "displaytimerp06", "displaytimerp6p5", "displaytimerp07", "displaytimerp08", "displaytimerp09", "displaytimerp9p5", "displaytimerp10", "displaytimerp11", 
 						 "displaytimerp12", "displaytimerp13", "displaytimerp14"];
-	var tzStrings = ["UTC -12", "UTC -11", "UTC -10", "UTC -09", "UTC -08", "UTC -07", "UTC -06", "UTC -05", "UTC -04", "UTC -03", "UTC -02½", "UTC -02", "UTC -01", "UTC +00", "UTC +01", "UTC +02",
-					 "UTC +03", "UTC +04", "UTC +04½", "UTC +05", "UTC+05½", "UTC+05¾", "UTC +06", "UTC +06½", "UTC +07", "UTC +08", "UTC +09", "UTC +09½", "UTC +10", "UTC +11", "UTC +12", "UTC +13", "UTC +14"];
+	var tzStrings = ["UTC -12 | US Minor Outlying Islands |", "UTC -11 | American Samoa |", "UTC -10 | US Hawaii |", "UTC -09 | French Polynesia |", "UTC -08 | US Alaska |", "UTC -07 | Canada Pacific - US Western |", "UTC -06 | Canada - Costa Rica - Guatemala - US Mountain |", "UTC -05 | Mexico - Panama - US Central |", "UTC -04 | Canada - US Eastern |", "UTC -03 | Argentina - Brazil - Canada Atlantic - Chile |", "UTC -02½ | Canada |", "UTC -02 | Greenland |", "UTC -01 | Cape Verde |", "UTC +00 | Iceland |", "UTC +01 | Portugal - United Kingdom |", "UTC +02 | France - Germany - Italy - South Africa - Spain |", "UTC +03 | Finland - Greece - Israel - Russia - Turkey |", "UTC +04 | Madagascar - Qatar - United Arab Emirates |", "UTC +04½ | Afghanistan |", "UTC +05 | Pakistan |", "UTC +05½ | India - Sri Lanka |", "UTC +05¾ | Nepal |", "UTC +06 | Bangladesh |", "UTC +06½ | Myanmar |", "UTC +07 | Indonesia - Thailand - Vietnam |", "UTC +08 | Hong Kong - Philippines - Singapore - Taiwan |", "UTC +09 | Japan - South Korea |", "UTC +09½ | Australia |", "UTC +10 | Australia |", "UTC +11 | New Caledonia - Russia |", "UTC +12 | New Zealand |", "UTC +13 | Tonga - Samoa |", "UTC +14 | Kiribati |"];
 	var now = moment.utc();
 	var distance = 0;
 	var days = 0;
