@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx xmlns="http://www.topografix.com/GPX/1/1" version="1.1" creator="DexHolder04">
+    <trk>
+        <name>0</name>
+        <trkseg>
+                <trkpt lat="33.693727" lon="73.067771"></trkpt>
+              <trkpt lat="33.693388" lon="73.068218"></trkpt>
+                <trkpt lat="33.693071" lon="73.068287"></trkpt>
+                <trkpt lat="33.692709" lon="73.068523"></trkpt>
+                <trkpt lat="33.692629" lon="73.06936"></trkpt>
+                <trkpt lat="33.693075" lon="73.068926"></trkpt>
+                <trkpt lat="33.693243" lon="73.069513"></trkpt>
+                <trkpt lat="33.693352" lon="73.069059"></trkpt>
+                <trkpt lat="33.693639" lon="73.068515"></trkpt>
+          </trkseg>
+
+    </trk>
+</gpx>
